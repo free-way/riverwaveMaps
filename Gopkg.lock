@@ -18,6 +18,12 @@
   version = "v1.2"
 
 [[projects]]
+  name = "github.com/go-ozzo/ozzo-validation"
+  packages = ["."]
+  revision = "85dcd8368eba387e65a03488b003e233994e87e9"
+  version = "v3.3"
+
+[[projects]]
   name = "github.com/go-sql-driver/mysql"
   packages = ["."]
   revision = "d523deb1b23d913de5bdada721a6071e71283618"
@@ -86,6 +92,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5a7c1708eded1be0763c62cc393578a875c2782ad667254eb588769486b6f4eb"
+  inputs-digest = "79c7489b10d3f18ace0dc2227b3309711c3bbd555b40eab1dde877f78731da3e"
   solver-name = "gps-cdcl"
   solver-version = 1
